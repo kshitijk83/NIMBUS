@@ -1,0 +1,729 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"translateZ()\ttransform"
+			],
+			[
+				"tranf",
+				"transform\tproperty"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"l",
+				"l"
+			],
+			[
+				"co",
+				"count_ab"
+			],
+			[
+				"cou",
+				"count_a"
+			],
+			[
+				"count",
+				"count_ab"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"coun",
+				"count_b"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"rota",
+				"rotateZ()\ttransform"
+			],
+			[
+				"translate",
+				"translateX()\ttransform"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"trn",
+				"translateY()\ttransform"
+			],
+			[
+				"tan",
+				"translateY()\ttransform"
+			],
+			[
+				"tras",
+				"transform\tproperty"
+			],
+			[
+				"tra",
+				"transform-origin\tproperty"
+			],
+			[
+				"ro",
+				"rotateZ()\ttransform"
+			],
+			[
+				"grid-tem",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"main",
+				"main-content2"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"border",
+				"border-right\tproperty"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"grid-",
+				"grid-row-start\tproperty"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"bor",
+				"border-right\tproperty"
+			],
+			[
+				"grid-col",
+				"grid-column-start\tproperty"
+			],
+			[
+				"grid-t",
+				"grid-template-rows"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"playlist",
+				"playlist-item1"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"gr",
+				"grid-column-end\tproperty"
+			],
+			[
+				"clo",
+				"grid-column-start"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground-color"
+			],
+			[
+				"grid-row-",
+				"grid-row-start\tproperty"
+			],
+			[
+				"grid-ro",
+				"grid-row-end\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground"
+			],
+			[
+				"i",
+				"inc\t#include <…>"
+			],
+			[
+				"grid-row",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-column",
+				"grid-column-end\tproperty"
+			],
+			[
+				"min",
+				"minpos"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"s",
+				"string"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"mob",
+				"mobileNav"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"toggle",
+				"toggleButton"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"c",
+				"cout"
+			],
+			[
+				"u",
+				"url()\tbackground"
+			],
+			[
+				"me",
+				"Mellow"
+			],
+			[
+				"backgroun",
+				"background-position\tproperty"
+			],
+			[
+				"backgr",
+				"background-size\tproperty"
+			],
+			[
+				"st",
+				"sticky\tposition"
+			],
+			[
+				"boo",
+				"bottom\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"customer",
+				"customer-attractions"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"bold",
+				"bolder\tfont-weight"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"border-r",
+				"border-radius\tproperty"
+			],
+			[
+				"backgroud",
+				"background-color\tproperty"
+			],
+			[
+				"to",
+				"top\tproperty"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"sum_",
+				"sum_b"
+			],
+			[
+				"sum",
+				"sum_b"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"fr",
+				"form\tTag"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"len",
+				"len"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"v",
+				"video\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"B",
+				"BUTTON\tTag"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"be",
+				"HTMLBeautify"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 213.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dev/Downloads/sass-01-installing-sass-starting-code/sass/main.scss",
+		"/home/dev/rudra-bir/package.json",
+		"/home/dev/Downloads/sass-07-project-finished (1)/main.scss",
+		"/home/dev/Downloads/sass-07-project-finished (1)/index.html",
+		"/home/dev/Downloads/sass-07-project-finished (1)/main.sass",
+		"/home/dev/Downloads/sass-07-project-finished (1)/main.css",
+		"/home/dev/Downloads/sass-07-project-finished (1)/_variables.scss",
+		"/home/dev/Downloads/sass-07-project-finished (1)/main.css.map",
+		"/home/dev/imdbreplica/imdb.html",
+		"/home/dev/Desktop/aa.cpp",
+		"/home/dev/Desktop/arjun.cpp",
+		"/home/dev/Desktop/feb2.cpp",
+		"/home/dev/Desktop/inter.cpp",
+		"/home/dev/imdbreplica/imdb.css",
+		"/home/dev/Winter-Project/packages/packages.css",
+		"/home/dev/Desktop/stack.cpp",
+		"/home/dev/imdbreplica/eg.html",
+		"/home/dev/Winter-Project/start-hosting/start-hosting.css",
+		"/home/dev/Winter-Project/style.css",
+		"/home/dev/Winter-Project/shared.js",
+		"/home/dev/Winter-Project/shared.css",
+		"/home/dev/Winter-Project/customers/customers.css",
+		"/home/dev/Winter-Project/main.css",
+		"/home/dev/Winter-Project/start-hosting/index.html",
+		"/home/dev/Winter-Project/customers/index.html",
+		"/home/dev/Winter-Project/packages/index.html",
+		"/home/dev/Winter-Project/index.html",
+		"/home/dev/Desktop/web project/mainpage.html",
+		"/home/dev/Desktop/letter",
+		"/home/dev/Desktop/night.cpp",
+		"/home/dev/Desktop/maximum.cpp",
+		"/home/dev/.cache/eg.css",
+		"/home/dev/.cache/.fr-zXdlOC/grid-09-assignment-2-start/index.html",
+		"/home/dev/.cache/.fr-tOkiD6/grid-09-assignment-2-start/main.css",
+		"/home/dev/.cache/.fr-do3xHA/grid-08-adding-named-template-areas/index.html",
+		"/home/dev/.cache/.fr-g6knpT/grid-08-adding-named-template-areas/main.css",
+		"/home/dev/Desktop/eg.html",
+		"/home/dev/Desktop/jan1.cpp",
+		"/home/dev/Desktop/eg.css",
+		"/home/dev/Desktop/flex.css",
+		"/home/dev/Desktop/flex.html",
+		"/home/dev/.cache/.fr-bXbjnX/grid-01-using-the-grid-on-our-projectstarting-code/main.css",
+		"/home/dev/.cache/.fr-bpgYYk/grid-01-using-the-grid-on-our-projectstarting-code/index.html",
+		"/home/dev/Desktop/forces.cpp",
+		"/home/dev/Desktop/jan3.cpp",
+		"/home/dev/.cache/.fr-hDIT5Q/main.css",
+		"/home/dev/.cache/.fr-o26KBT/index.html",
+		"/home/dev/Desktop/jan3",
+		"/home/dev/Winter-Project/doubts",
+		"/home/dev/Winter-Project/points to remember",
+		"/home/dev/.cache/.fr-6fEWiH/index.html",
+		"/home/dev/Downloads/responsive-09-project-finished/shared.css",
+		"/home/dev/Downloads/responsive-09-project-finished/main.css",
+		"/home/dev/Desktop/udemy course/doubts",
+		"/home/dev/Desktop/udemy course/shared.js",
+		"/home/dev/Desktop/udemy course/customers/customers.css",
+		"/home/dev/Desktop/udemy course/points to remember",
+		"/home/dev/.cache/.fr-5r5cBN/button.html",
+		"/home/dev/Desktop/udemy course/style.css",
+		"/home/dev/Desktop/udemy course/main.css",
+		"/home/dev/Desktop/udemy course/packages/packages.css",
+		"/home/dev/Desktop/udemy course/customers/index.html",
+		"/home/dev/Desktop/udemy course/packages/index.html",
+		"/home/dev/Desktop/udemy course/index.html",
+		"/home/dev/.cache/.fr-mHLzZt/button.css",
+		"/home/dev/.cache/.fr-tXqCNt/index.html",
+		"/home/dev/.cache/.fr-rrg9hs/shared.css",
+		"/home/dev/.cache/.fr-wz3LTZ/main.css",
+		"/home/dev/.cache/.fr-zAACHj/index.html",
+		"/home/dev/.cache/.fr-mb4oQl/index.html",
+		"/home/dev/.cache/.fr-Tk8XaU/svg3.html",
+		"/home/dev/.cache/.fr-iUWQm4/svg2.html",
+		"/home/dev/.cache/.fr-HzQbfZ/svg1.html",
+		"/home/dev/.cache/.fr-YVHVx2/index.html",
+		"/home/dev/.cache/.fr-K9mLJg/index.html",
+		"/home/dev/.cache/.fr-0pAWkw/customers.css",
+		"/home/dev/.cache/.fr-BdHoYV/customers/customers.css",
+		"/home/dev/.cache/.fr-MhAPes/index.html",
+		"/home/dev/.cache/.fr-YvF9GN/main.css",
+		"/home/dev/.cache/.fr-hcKXWM/index.html",
+		"/home/dev/.cache/.fr-ONMkSE/main.css",
+		"/home/dev/.cache/.fr-dBAS5k/index.html",
+		"/home/dev/Desktop/udemy course/packages/style.css",
+		"/home/dev/.cache/.fr-tsD1tz/main.css",
+		"/home/dev/.cache/.fr-V7iiel/index.html",
+		"/home/dev/.cache/.fr-NzqJwp/index.html",
+		"/home/dev/.cache/.fr-cMWgdh/index.html",
+		"/home/dev/.cache/.fr-4oYqhI/index.html",
+		"/home/dev/.cache/.fr-m24kXj/index.html",
+		"/home/dev/Downloads/udemy/more-on-selectors-1-start-code/more-on-selectors-1-start-code/main.css",
+		"/home/dev/Downloads/udemy/more-on-selectors-1-start-code/more-on-selectors-1-start-code/index.html",
+		"/home/dev/.cache/.fr-QseSXl/index.html",
+		"/home/dev/Downloads/udemy/assign2.css",
+		"/home/dev/Downloads/udemy/assignment2.html",
+		"/home/dev/Desktop/style.css",
+		"/home/dev/Desktop/project.html",
+		"/home/dev/Desktop/backup-iiitu-website-4september2018/var/www/html/academic.html",
+		"/home/dev/IIIT-UNA-website/it-dept.html",
+		"/home/dev/Desktop/main.css",
+		"/home/dev/Desktop/test.html",
+		"/home/dev/Downloads/udemy/diving-deeper-01-project-introducing-the-box-model-starting-code/main.css",
+		"/home/dev/Downloads/udemy/diving-deeper-01-project-introducing-the-box-model-starting-code/index.html",
+		"/home/dev/Desktop/untitled23.html",
+		"/home/dev/Desktop/Computer Science & Engineering – National Institute of Technology Hamirpur.html",
+		"/home/dev/Desktop/udemy course/module2.html",
+		"/home/dev/Desktop/hi/index.html",
+		"/home/dev/Desktop/udemy course/cod.html",
+		"/home/dev/Desktop/udemy course/module2html",
+		"/home/dev/Desktop/Indian Institue Of Information Technoogy,UNA(H.P)_files/style.css",
+		"/home/dev/IIIT-UNA-website/index.html",
+		"/home/dev/Desktop/Indian Institue Of Information Technoogy,UNA(H.P).html",
+		"/home/dev/Desktop/xyz.html",
+		"/home/dev/Desktop/Indian Institue Of Information Technoogy,UNA(H.P)_files/font-awesome.min.css",
+		"/home/dev/Downloads/udemy/basics-06-assignment-problem/main.css",
+		"/home/dev/Downloads/udemy/basics-06-assignment-problem/index.html",
+		"/home/dev/IIIT-UNA-website/cse-dept.html",
+		"/home/dev/IIIT-UNA-website/ece-dept.html",
+		"/home/dev/Desktop/Availability - Spotify.html",
+		"/home/dev/.cache/.fr-QZa9zD/css-in-action/code.css",
+		"/home/dev/Desktop/cod.html",
+		"/home/dev/.cache/.fr-iiUTBz/index.html",
+		"/home/dev/.cache/.fr-PfDCQN/css-in-action/index.html",
+		"/home/dev/.cache/course.html",
+		"/home/dev/Desktop/course",
+		"/home/dev/Desktop/web project/a.css",
+		"/home/dev/No-dues-system/error.html",
+		"/home/dev/Desktop/maxprod.cpp",
+		"/home/dev/Desktop/snk.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 125.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
