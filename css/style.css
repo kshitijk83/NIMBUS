@@ -44,7 +44,8 @@ a {
         justify-content: center; } }
     .clubs-con-img {
       width: 22rem;
-      margin-bottom: 6rem; }
+      margin-bottom: 6rem;
+      cursor: pointer; }
       .clubs-con-img img {
         width: 100%; }
 
