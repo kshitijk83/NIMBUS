@@ -25,7 +25,10 @@ html{
     width: 100%;
 }
 body {
-    
+    width: 100%;
+    // overflow-y: hidden;
+    height: 100%;
+    background: black;
 }
 
 a {text-decoration: none;}

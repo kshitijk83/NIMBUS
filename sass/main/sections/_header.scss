@@ -1,0 +1,83 @@
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 180vmin;
+  background-color: #000;
+
+  main {
+    position: relative;
+    height: 30vmin;
+    width: 52vmin;
+  }
+  
+  div {
+    &,
+    &::before,
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      color: white;
+    }
+    img{
+      width: 100%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+    }
+    
+    &::before,
+    &::after {
+      content: '';
+    }
+    
+    &::before {
+      transform: rotate(60deg);
+    }
+    
+    &::after {
+      transform: rotate(120deg);
+    }
+  }
+  
+  $count: 36;
+  @for $i from 1 through $count {
+    $angle: 360 / $count * $i;
+  
+    div:nth-of-type(#{$i}){
+      transform: rotateY(0deg) rotate3d(1, 1, 0, -#{$angle}deg);
+      animation: 4s linear infinite move#{$i};
+    }
+    
+    @keyframes move#{$i} {
+      0% {
+        transform: rotateY(0deg) rotate3d(1, 1, 0, -#{$angle}deg);
+      }
+      25% {
+        transform: rotateY(90deg) rotate3d(1, 1, 0, -#{$angle / 5}deg);
+      }
+      43.75% {
+        transform: rotateY(157.5deg) rotate3d(0, 0.2, 1, -#{$angle / 5}deg);
+      }
+      50% {
+        transform: rotateY(180deg) rotate3d(0, 0.2, 1, 0deg);
+      }
+      56.25% {
+        transform: rotateY(202.5deg) rotate3d(0, 0.2, 1, #{$angle / 5}deg);
+      }
+      75% {
+        transform: rotateY(270deg) rotate3d(1, 1, 0, #{$angle / 5}deg);
+      }
+      100% {
+        transform: rotateY(360deg) rotate3d(1, 1, 0, #{$angle}deg);
+      }
+    }
+  }
+}
