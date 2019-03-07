@@ -21,13 +21,9 @@ $breakpoint arguments choices
 
 html {
   height: 100%;
-  overflow: hidden; }
-
-body {
-  height: 100%; }
+  width: 100%; }
 
 a {
-  color: white;
   text-decoration: none; }
 
 .clubs {
@@ -44,22 +40,29 @@ a {
   .clubs-con {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-top: 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .clubs-con {
+        width: 18rem;
+        justify-content: center; } }
     .clubs-con-img {
       width: 22rem;
-      margin-bottom: 6rem; }
+      margin-bottom: 6rem;
+      cursor: pointer; }
       .clubs-con-img img {
         width: 100%; }
 
 .popup {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 9999;
-  opacity: 1;
+  opacity: 0;
+  visibility: hidden;
   transition: all .3s; }
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
     .popup {
@@ -71,39 +74,25 @@ a {
     font-size: 5rem; }
     .popup__heading-content {
       text-align: center; }
+    @media only screen and (max-width: 37.5em) {
+      .popup__heading {
+        font-size: 2rem; } }
   .popup__content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    overflow-y: scroll;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-    display: table;
     border-radius: 3px;
     opacity: 1;
     transition: all .5s .2s; }
-  .popup__left {
-    width: 33.3333333%;
-    display: table-cell; }
-    @media only screen and (max-width: 75em) {
-      .popup__left {
-        width: 100%;
-        display: block; } }
   .popup__right {
-    width: 66.6666667%;
-    display: table-cell;
-    vertical-align: middle;
     padding: 3rem 5rem; }
-    @media only screen and (max-width: 75em) {
+    @media only screen and (max-width: 56.25em) {
       .popup__right {
-        width: 100%;
-        display: block; } }
-    @media only screen and (max-width: 37.5em) {
-      .popup__right {
-        display: block;
-        padding: 0rem 2rem; } }
+        padding: 2rem; } }
   .popup__img {
     width: 100%;
     display: block; }
@@ -115,7 +104,7 @@ a {
     font-size: 1.4rem;
     margin-bottom: 4rem;
     overflow-y: scroll;
-    height: 50rem;
+    height: 31rem;
     display: flex;
     flex-direction: column;
     align-items: center; }
@@ -123,30 +112,34 @@ a {
       text-align: center;
       padding: 3rem;
       margin: 4rem 0;
-      height: 15rem;
       font-size: 1.5rem;
       border: 5px solid #444; }
+      @media only screen and (max-width: 37.5em) {
+        .popup__text .list {
+          margin: 1rem 0;
+          padding: .5rem; } }
       .popup__text .list-header {
         font-size: 3rem;
         margin-bottom: 1rem; }
+      .popup__text .list-disc {
+        font-size: 1rem; }
       .popup__text .list-boxCon {
         display: flex;
         justify-content: center; }
+        @media only screen and (max-width: 37.5em) {
+          .popup__text .list-boxCon {
+            display: block; } }
         .popup__text .list-boxCon .btn {
-          border: 1px solid #222; }
+          padding: 1.3rem;
+          background: #1212ff; }
+          .popup__text .list-boxCon .btn a,
+          .popup__text .list-boxCon .btn a:visited,
+          .popup__text .list-boxCon .btn a:link {
+            color: #eee; }
         .popup__text .list-boxCon-rules {
           margin: 2rem; }
         .popup__text .list-boxCon-reg {
           margin: 2rem; }
-    @media only screen and (max-width: 56.25em) {
-      .popup__text {
-        -moz-column-count: 1;
-        -moz-column-gap: 0rem;
-        -moz-column-rule: none;
-        column-count: 1;
-        column-gap: 0rem;
-        column-rule: none;
-        margin-bottom: 1rem; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
@@ -156,8 +149,8 @@ a {
   .popup__close:link, .popup__close:visited {
     color: #777;
     position: absolute;
-    top: 2.5rem;
-    right: 2.5rem;
+    top: 0.5rem;
+    right: 0.8rem;
     font-size: 3rem;
     text-decoration: none;
     display: inline-block;

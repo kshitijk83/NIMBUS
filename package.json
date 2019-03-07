@@ -5,13 +5,19 @@
   "main": "index.js",
   "dependencies": {},
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "watch:sass:events": "node-sass sass/events/main.scss css/events/style.css -w",
     "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
-    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "start:events": "npm-run-all --parallel devserver watch:sass:events",
+    "compile:sass:events": "node-sass sass/events/main.scss css/events/style.comp.css",
+    "prefix:css:events": "postcss --use autoprefixer -b 'last 10 versions' css/events/style.comp.css -o css/events/style.prefix.css",
+    "compress:css:events": "node-sass css/events/style.prefix.css css/events/style.css --output-style compressed",
+    "build:css:events": "npm-run-all compile:sass:events prefix:css:events compress:css:events",
+    "watch:sass:main": "node-sass sass/main/main.scss css/main/style.css -w",
+    "start:main": "npm-run-all --parallel devserver watch:sass:main",
+    "compile:sass:main": "node-sass sass/main/main.scss css/main/style.comp.css",
+    "prefix:css:main": "postcss --use autoprefixer -b 'last 10 versions' css/main/style.comp.css -o css/main/style.prefix.css",
+    "compress:css:main": "node-sass css/main/style.prefix.css css/main/style.css --output-style compressed",
+    "build:css:main": "npm-run-all compile:sass:main prefix:css:main compress:css:main"
   },
   "repository": {
     "type": "git",

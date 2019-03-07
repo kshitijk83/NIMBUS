@@ -1,0 +1,37 @@
+.clubs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 3rem 0 0 0;
+  margin: auto;
+  // min-width: 100vh;
+  height: 100%;
+  justify-content: space-evenly;
+
+  &_heading{
+    font-size: 4rem;
+  }
+
+  &-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+    @include respond(tab-port){
+      width: 18rem;
+      justify-content: center;
+    }
+
+    &-img{
+      width: 22rem;
+      margin-bottom: 6rem;
+      cursor: pointer;
+
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
